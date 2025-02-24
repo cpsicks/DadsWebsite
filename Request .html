@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SD&C Forms</title>
+    <link rel="stylesheet" href="Request.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="navbar">
+      <li><a href="SD&C.html">Homepage</a></li>
+      <li><a href="Clean-up rates.html" target="_blank">SD&C Rates</a></li>
+      <!-- <li><a href="">Contact</a></li> -->
+    </div>
+    <form action="">
+      <header>
+        <h1>Request Estimate</h1>
+
+        <p class="head-p">
+          Please fill out request form and estimate the volume as close as
+          possible, or call 559-920-6872. Thank You.
+        </p>
+      </header>
+      <section class="sec1">
+        <p class="save">We do not save or sale any personal information.</p>
+
+        <label for="name">Name <input type="text" id="name" /></label>
+        <label for="address">Address <input type="text" id="address" /></label>
+        <label for="city"
+          >City <input type="text" id="city" placeholder="required" required
+        /></label>
+        <label for="email"
+          >Email <input type="email" id="email" placeholder="required" required
+        /></label>
+        <label for="tele">Phone # <input type="tele" id="tele" /></label>
+      </section>
+
+      <section class="sec2">
+        <div class="checkbox">
+          <label for="items"
+            >What type of items will be disposed of?<br />
+            <input type="checkbox" id="items" />Kitchen Appliances<br />
+            <input type="checkbox" id="items" />Household Items<br />
+            <input type="checkbox" id="items" />Construction Waste<br />
+            <input type="checkbox" id="items" />Automotive Parts<br />
+            <input type="checkbox" id="items" />Office Equiptment<br />
+            <input type="checkbox" id="items" />Scrap Metal<br />
+          </label>
+        </div>
+        <p>
+          What is the approx. weight of the single heaviest item?
+          <label for="weight"> <input type="text" id="weight" />LBS. </label>
+        </p>
+        <p class="calc">
+          Estimate the total volume of items to be removed.
+          <label for="volume">
+            <input type="text" id="volume" />Cubic Ft.</label
+          >
+          <button>
+            <a href="labelrap.html" target="_blank"
+              >How to calculate cubic feet.</a
+            >
+          </button>
+        </p>
+
+        <p>
+          <label for="date">Approx. Job Date</label>
+          <input type="date" id="date" />
+        </p>
+        <fieldset>
+          <legend>Clean-up Services</legend>
+
+          <div class="textarea">
+            <label for="textarea">Secial Instuctions: </label>
+            <textarea id="textarea" cols="35" rows="10"> </textarea>
+          </div>
+        </fieldset>
+      </section>
+      <section class="sec3">
+        <div class="disk-text">
+          <fieldset>
+            <legend>Disking Services</legend>
+            <p>Please discribe job scope as much as possible.</p>
+            <textarea cols="35" rows="10"></textarea>
+          </fieldset>
+        </div>
+      </section>
+      <div>
+        <button type="submit">submit</button>
+      </div>
+    </form>
+  </body>
+</html>

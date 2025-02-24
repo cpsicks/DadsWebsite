@@ -1,0 +1,62 @@
+:root {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  --text-color1: black;
+  --text-color2: white;
+  --text-color3: red;
+  --bg-color1: #00ddff;
+}
+body {
+  background-color: var(--bg-color1);
+  font-weight: 700;
+}
+.navbar li {
+  text-align: center;
+
+  list-style-type: none;
+  color: rgb(27, 203, 234);
+}
+header {
+  border-bottom: 2px dotted var(--text-color1);
+  padding: 10px;
+}
+.save {
+  background-color: beige;
+  color: var(--text-color3);
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+.head-p {
+  font-weight: 900;
+}
+form {
+  text-align: center;
+}
+label {
+  display: block;
+}
+.sec1 label {
+  margin: 10px;
+  font-weight: 600;
+}
+.sec1 {
+  border-bottom: 2px dotted var(--text-color1);
+  padding: 10px;
+}
+.sec2 label {
+  margin: 10px;
+}
+.sec2 {
+  border-bottom: 2px dotted var(--text-color1);
+}
+button {
+  margin: 10px;
+  padding: 10px;
+}
+fieldset {
+  width: 100%;
+}
+.calc button {
+  border: 5px solid red;
+}

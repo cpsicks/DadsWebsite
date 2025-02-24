@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  font-family: "Courier New", Courier, monospace;
+  --bg-color1: rgb(0, 0, 255);
+  --bg-color2: rgb(255, 255, 255);
+  --bg-color3: rgb(0, 255, 89);
+  --bg-color4: rgb(102, 209, 252);
+  --text-color1: rgb(255, 255, 0);
+  --text-color2: rgb(255, 0, 0);
+  --text-color3: rgb(0, 0, 0);
+  --text-color4: rgb(250, 165, 0);
+  font-weight: 700;
+}
+body {
+  background-color: var(--bg-color3);
+}
+p {
+  text-indent: 2em;
+}
+.clean {
+  padding: 30px;
+  border: 2px solid black;
+  margin: 5px;
+  background-color: var(--bg-color4);
+}
+.clean h1 {
+  text-align: center;
+}
+.disk {
+  padding: 30px;
+  border: 2px solid black;
+  margin: 5px;
+  background-color: var(--bg-color4);
+}
+.disk h1 {
+  text-align: center;
+}
