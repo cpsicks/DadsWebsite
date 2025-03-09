@@ -12,7 +12,7 @@
       <li><a href="Clean-up rates.html" target="_blank">SD&C Rates</a></li>
       <!-- <li><a href="">Contact</a></li> -->
     </div>
-    <form action="">
+    <form action="https://formsubmit.co/cpsicks@aol.com" method="post">
       <header>
         <h1>Request Estimate</h1>
 
@@ -24,37 +24,62 @@
       <section class="sec1">
         <p class="save">We do not save or sale any personal information.</p>
 
-        <label for="name">Name <input type="text" id="name" name="Name" /></label>
-        <label for="address">Address <input type="text" id="address" name="Address" /></label>
+        <label for="name"
+          >Name <input type="text" id="name" name="Name"
+        /></label>
+        <label for="address"
+          >Address <input type="text" id="address" name="Address"
+        /></label>
         <label for="city"
-          >City <input type="text" id="city" name="City" placeholder="required" required
+          >City
+          <input
+            type="text"
+            id="city"
+            name="City"
+            placeholder="required"
+            required
         /></label>
         <label for="email"
-          >Email <input type="email" id="email" name="Email" placeholder="required" required
+          >Email
+          <input
+            type="email"
+            id="email"
+            name="Email"
+            placeholder="required"
+            required
         /></label>
-        <label for="tele">Phone # <input type="tele" id="tele" name="Phone" /></label>
+        <label for="tele"
+          >Phone # <input type="tele" id="tele" name="Phone"
+        /></label>
       </section>
 
       <section class="sec2">
         <div class="checkbox">
           <label for="items"
             >What type of items will be disposed of?<br />
-            <input type="checkbox" id="items" />Kitchen Appliances<br />
-            <input type="checkbox" id="items" />Household Items<br />
-            <input type="checkbox" id="items" />Construction Waste<br />
-            <input type="checkbox" id="items" />Automotive Parts<br />
-            <input type="checkbox" id="items" />Office Equiptment<br />
-            <input type="checkbox" id="items" />Scrap Metal<br />
+            <input type="checkbox" id="items" name="Kitchen" />Kitchen
+            Appliances<br />
+            <input type="checkbox" id="items" name="Household" />Household
+            Items<br />
+            <input type="checkbox" id="items" name="Construction" />Construction
+            Waste<br />
+            <input type="checkbox" id="items" name="Automotive" />Automotive
+            Parts<br />
+            <input type="checkbox" id="items" name="Office" />Office
+            Equiptment<br />
+            <input type="checkbox" id="items" name="Scrap" />Scrap Metal<br />
           </label>
         </div>
         <p>
           What is the approx. weight of the single heaviest item?
-          <label for="weight"> <input type="text" id="weight" />LBS. </label>
+          <label for="weight">
+            <input type="text" id="weight" name="Heaviest" />LBS.
+          </label>
         </p>
         <p class="calc">
           Estimate the total volume of items to be removed.
           <label for="volume">
-            <input type="text" id="volume" />Cubic Ft.</label
+            <input type="text" id="volume" name="volume" />Cubic Ft.</label
           >
           <button>
             <a href="labelrap.html" target="_blank"
@@ -65,14 +90,20 @@
 
         <p>
           <label for="date">Approx. Job Date</label>
-          <input type="date" id="date" />
+          <input type="date" id="date" name=" Job Date" />
         </p>
         <fieldset>
           <legend>Clean-up Services</legend>
 
           <div class="textarea">
-            <label for="textarea">Secial Instuctions: </label>
-            <textarea id="textarea" name="Comments" cols="35" rows="10"> </textarea>
+            <label for="textarea">Special Instuctions: </label>
+            <textarea
+              id="textarea"
+              name="cleanup instructions"
+              cols="35"
+              rows="10"
+            >
+            </textarea>
           </div>
         </fieldset>
       </section>
@@ -81,7 +112,11 @@
           <fieldset>
             <legend>Disking Services</legend>
             <p>Please discribe job scope as much as possible.</p>
-            <textarea cols="35" rows="10"></textarea>
+            <textarea
+              name="disking instructions"
+              cols="35"
+              rows="10"
+            ></textarea>
           </fieldset>
         </div>
       </section>
